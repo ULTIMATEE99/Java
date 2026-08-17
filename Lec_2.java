@@ -1,5 +1,5 @@
 import java.util.*;
-public class Lec_1 {
+public class Lec_2 {
     public static void main(String[] args) {  
 
         
@@ -19,7 +19,7 @@ java has a class for everything and the starting for letter of it is always be a
         System.out.println("Starting Java journey!");
         System.out.println("teseting name change!");
         System.out.println("adds a new when do ln !");
-        System.out.print("   will start from same line ");
+        System.out.print("will start from same line ");
         System.out.println(".  teseting");
 
 
@@ -28,6 +28,7 @@ java has a class for everything and the starting for letter of it is always be a
         Scanner input = new Scanner(System.in);
         // Scanner is the class name input is the variable name given to it which can be anything
         // new creates new  Scanner object 
+        System.out.print("Enter your age");
         int age = input.nextInt();
         System.out.println("Your age is: " + age);
         input.close();// this we have to do because it consume resources
