@@ -16,11 +16,11 @@ java has a class for everything and the starting for letter of it is always be a
  (not always just it is a convential way pascal case )
 
 */
-        System.out.println("Starting Java journey!");
-        System.out.println("teseting name change!");
-        System.out.println("adds a new when do ln !");
-        System.out.print("will start from same line ");
-        System.out.println(".  teseting");
+        // System.out.println("Starting Java journey!");
+        // System.out.println("teseting name change!");
+        // System.out.println("adds a new when do ln !");
+        // System.out.print("will start from same line ");
+        // System.out.println(".  teseting");
 
 
 
@@ -28,9 +28,26 @@ java has a class for everything and the starting for letter of it is always be a
         Scanner input = new Scanner(System.in);
         // Scanner is the class name input is the variable name given to it which can be anything
         // new creates new  Scanner object 
-        System.out.print("Enter your age");
+        System.out.print("Enter your Name: ");
+        
+        // String name = input.next();// to input string we use next but without space
+        // takes input with space  
+
+        String name1 = input.nextLine();
+        System.out.print("Enter your age: ");
+        
+        // to input int we use nextInt
+
         int age = input.nextInt();
-        System.out.println("Your age is: " + age);
-        input.close();// this we have to do because it consume resources
+        
+        
+        System.out.println("Your name: " + name1 + ", age: "+age);
+        
+        
+        
+        
+        
+        input.close();// this we have to do because it consume resources 
+
     }
 }
