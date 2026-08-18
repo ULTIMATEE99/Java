@@ -31,5 +31,6 @@ java has a class for everything and the starting for letter of it is always be a
         int age = input.nextInt();
         System.out.println("Your age is: " + age);
         input.close();// this we have to do because it consume resources
+        
     }
 }

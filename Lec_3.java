@@ -53,6 +53,7 @@ public class Lec_3 {
         System.out.println("Price: " + price);
         System.out.println("Grade: " + grade);
         System.out.println("Is Student: " + isStudent);
+        //testing multiple value inputting
 
     
 
