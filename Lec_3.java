@@ -54,6 +54,8 @@ public class Lec_3 {
         System.out.println("Grade: " + grade);
         System.out.println("Is Student: " + isStudent);
         //testing multiple value inputting
+        //havent done much about this just pushning to maintain streak
+        
 
     
 
