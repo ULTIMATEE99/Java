@@ -1,3 +1,4 @@
+package proper;
 public class linear_search {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
