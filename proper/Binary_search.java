@@ -15,5 +15,7 @@ public class Binary_search {
         int result = Arrays.binarySearch(arr, target);
 
         System.out.println("Element found at position: " + (result + 1));
+        System.out.println("Element found at Index: " + (result));
+
     }
 }
