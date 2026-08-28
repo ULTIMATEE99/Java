@@ -26,6 +26,7 @@ class EXP_1{
 
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        System.out.print("Enter a number testinggit : ");
 
         boolean result = isPowerOfTwo(n);
 
