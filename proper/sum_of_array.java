@@ -9,6 +9,7 @@ public class sum_of_array {
         for (int i = 0; i < arr.length; i++) {
 
             sum += arr[i];
+            System.out.println("testing");
             
         }
 
